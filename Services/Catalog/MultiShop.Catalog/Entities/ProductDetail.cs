@@ -1,11 +1,20 @@
-﻿namespace MultiShop.Catalog.Entities
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+
+namespace MultiShop.Catalog.Entities
 {
     public class ProductDetail
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string ProductDetailID { get; set; }
 
         public string ProducDescription { get; set; }
 
         public string ProducInfo { get; set; }
+
+        public string ProductId { get; set; }
+        [BsonIgnore]
+        public Product Product { get; set; }
     }
 }
