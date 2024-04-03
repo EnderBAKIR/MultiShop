@@ -1,8 +1,8 @@
 ﻿namespace MultiShop.Catalog.Entities
 {
-    public class ProductImages
+    public class ProductImage
     {
-        public string ProductsImagesID { get; set; }
+        public string ProductsImageID { get; set; }
 
         public string Image1 { get; set; }
 
