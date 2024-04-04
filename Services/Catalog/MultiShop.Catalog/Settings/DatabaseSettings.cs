@@ -6,7 +6,7 @@
 
         public string ProductCollectionName { get; set; }
 
-        public string ProductDetailtCollectionName { get; set; }
+        public string ProductDetailCollectionName { get; set; }
 
         public string ProductImageCollectionName { get; set; }
 
