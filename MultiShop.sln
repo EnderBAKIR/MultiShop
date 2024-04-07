@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Domain", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Application", "Services\Order\Core\MultiShop.Order.Application\MultiShop.Order.Application.csproj", "{38019954-3B54-4E76-A347-E4CBC7958988}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence", "Services\Order\Infrastructure\MultiShop.Order.Persistence\MultiShop.Order.Persistence.csproj", "{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{38019954-3B54-4E76-A347-E4CBC7958988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38019954-3B54-4E76-A347-E4CBC7958988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38019954-3B54-4E76-A347-E4CBC7958988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{7623AEE2-87AD-4EC2-98FC-D56D2BD75F65} = {24143833-B6EF-40C0-91A8-B167745BF31E}
 		{FFB0ECBC-4131-42B5-8965-5CCB262B04A0} = {AF9DCACE-4CD1-4C91-B679-31CD1444D670}
 		{38019954-3B54-4E76-A347-E4CBC7958988} = {AF9DCACE-4CD1-4C91-B679-31CD1444D670}
+		{7E1D261A-A9E7-4050-AE0B-F654D61B9ACF} = {19B94B89-5272-4014-A290-B2F725FB962C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18A240CB-8847-47F1-8DA8-34AD91C01E9A}
