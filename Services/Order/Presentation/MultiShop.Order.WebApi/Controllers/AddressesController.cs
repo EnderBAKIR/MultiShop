@@ -33,7 +33,7 @@ namespace MultiShop.Order.WebApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> AddressListById(int id)
+        public async Task<IActionResult> GetAddressById(int id)
         {
             var values = _getAddressByIdQueryHandler.Handle(new GetAddressByIdQuery(id));
 
@@ -55,7 +55,7 @@ namespace MultiShop.Order.WebApi.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteAddress(int id)
+        public async Task<IActionResult> RemoveAddress(int id)
         {
             await _removeAddressCommandHandler.Handle(new RemoveAddressCommand(id));
             return Ok("Address başarıyla silindi");
