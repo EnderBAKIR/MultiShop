@@ -30,7 +30,7 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
                 ProductId = x.ProductId,
                 ProductName = x.ProductName,
                 ProductPrice = x.ProductPrice,
-                TotalPrice = x.TotalPrice
+                ProductTotalPrice = x.ProductTotalPrice
             }).ToList();
         }
     }

@@ -28,7 +28,7 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
             values.ProductPrice = command.ProductPrice;
             values.ProductAmount = command.ProductAmount;
             values.ProductId = command.ProductId;
-            values.TotalPrice = command.TotalPrice;
+            values.ProductTotalPrice = command.ProductTotalPrice;
             
             await _repository.UpdateAsync(values);
         }
