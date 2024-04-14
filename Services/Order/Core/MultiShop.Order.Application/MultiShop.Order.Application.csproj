@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Mediator\Handlers\" />
-    <Folder Include="Features\Mediator\Commands\" />
   </ItemGroup>
 
   <ItemGroup>
